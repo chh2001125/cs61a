@@ -71,7 +71,7 @@ Project（2/3）
 ## [HW 02: Higher-Order Functions](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw02/) 
 
 
-## [HW 03: Recursion](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw03/)	未完成
+## [HW 03: Recursion](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw03/)	
 ### Q2:pingpong值得回顾
 
 pingpong（n）
@@ -91,6 +91,9 @@ pingpong（n）
 - 使用递归时要时刻想到**分治法** --> 将问题分解
 - 可以考虑将反向的递归（分解）转换为正向的递归（合并）
 - 实在想不出来怎么实现递归时不妨先实现迭代，再将迭代转化为递归
+
+### Q4:Count coins值得回顾！！！
+http://composingprograms.com/pages/17-recursive-functions.html#example-partitions
 
 ## [HW 04: Trees, Data Abstraction](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw04/) 	未完成
 
