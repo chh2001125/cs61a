@@ -77,11 +77,11 @@ Project（2/3）
 pingpong（n）
 要求给出n处的值
 
-1.这道题要求使用递归完成并且不能使用赋值语句，助教的提示是通过迭代的方式实现逻辑然后再将迭代转换成递归。
-2.由于不能使用赋值语句，在转换的过程中，发现并不能保存当前的状态是该加还是减。于是助教提示使用helper()函数帮助我们转递参数并且保存状态
-3.helper(index，pingpongvalue，direction)函数不仅可以访问pingpong的n，还可以通过传参的形式保存状态
-4.如果直接使用pingpong进行递归的话，我们需要**反向**访问之前的值，但是pingpong函数不能使用赋值语句并且只能传入一个参数，无法保存状态
-5.使用helper(index，pingpongvalue，direction)相当于**正向**前进，知道当前状态就可以推断出下一状态，直到index等于n
+1. 这道题要求使用递归完成并且不能使用赋值语句，助教的提示是通过迭代的方式实现逻辑然后再将迭代转换成递归。
+2. 由于不能使用赋值语句，在转换的过程中，发现并不能保存当前的状态是该加还是减。于是助教提示使用helper()函数帮助我们转递参数并且保存状态
+3. helper(index，pingpongvalue，direction)函数不仅可以访问pingpong的n，还可以通过传参的形式保存状态
+4. 如果直接使用pingpong进行递归的话，我们需要**反向**访问之前的值，但是pingpong函数不能使用赋值语句并且只能传入一个参数，无法保存状态
+5. 使用helper(index，pingpongvalue，direction)相当于**正向**前进，知道当前状态就可以推断出下一状态，直到index等于n
 
 对问题的分析也很重要：
 - 要明确有什么重要的参数需要传递（index，pingpongvalue，direction）
