@@ -95,10 +95,10 @@ pingpong（n）
 ### Q4:Count coins值得回顾！！！
 http://composingprograms.com/pages/17-recursive-functions.html#example-partitions
 
-## [HW 04: Trees, Data Abstraction](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw04/) 	未完成
+## [HW 04: Trees, Data Abstraction](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw04/) 	
 
 
-## [HW 05: Object-Oriented Programming, Linked Lists, Iterators and Generators](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw05/)
+## [HW 05: Object-Oriented Programming, Linked Lists, Iterators and Generators](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw05/) 未完成
 
 
 ## [HW 06: Scheme](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw06/)	未完成
