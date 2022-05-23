@@ -10,11 +10,11 @@
 
 # 完成度：
 
-耗时：20h
+耗时：24h
 
-Lab（5/13）
+Lab（6/13）
 
-HW（2/10）
+HW（4/10）
 
 Project（2/3）
 
@@ -38,7 +38,7 @@ Project（2/3）
 ## [Lab 05: Python Lists, Data Abstraction, Trees](https://inst.eecs.berkeley.edu/~cs61a/sp21/lab/lab05/)
 
 
-## [Lab 06: Nonlocal, Mutability, Iterators and Generators](https://inst.eecs.berkeley.edu/~cs61a/sp21/lab/lab06/)	未完成
+## [Lab 06: Nonlocal, Mutability, Iterators and Generators](https://inst.eecs.berkeley.edu/~cs61a/sp21/lab/lab06/)	
 
 
 ## [Lab 07: Object-Oriented Programming, Linked Lists, Mutable Trees](https://inst.eecs.berkeley.edu/~cs61a/sp21/lab/lab07/)	未完成
