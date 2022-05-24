@@ -10,11 +10,11 @@
 
 # 完成度：
 
-耗时：24h
+耗时：26h
 
 Lab（6/13）
 
-HW（4/10）
+HW（5/10）
 
 Project（2/3）
 
@@ -98,7 +98,30 @@ http://composingprograms.com/pages/17-recursive-functions.html#example-partition
 ## [HW 04: Trees, Data Abstraction](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw04/) 	
 
 
-## [HW 05: Object-Oriented Programming, Linked Lists, Iterators and Generators](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw05/) 未完成
+## [HW 05: Object-Oriented Programming, Linked Lists, Iterators and Generators](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw05/) 
+### Q2 store_digits(n) 值得回顾！！
+要求：
+- 将数字转化成链表
+- 不能使用str和reverse
+
+思路：
+- 一开始的错误思路：使用递归构造列表：Link(n%10,store_digits(n//10)),但是发现结果是逆序存储，所以错了
+- 正确思路：使用列表存储每一位，然后使用pop()得到的顺序就是正序了，然后递归构造列表。这里我构造了一个helper()函数实现递归
+
+学习：
+学到了使用divemod()这个内置函数实现位处理
+
+### Q3 path_yieler(t,value) 值得回顾！！！
+
+要求：
+- 给定value，返回一个生成器，得到所有label等于vaule的路径
+
+思路：
+- 对yield的理解非常重要 https://blog.csdn.net/mieleizhi0522/article/details/82142856
+- 使用递归实现，对递归函数具体要做什么也要非常清楚
+- 和使用递归在树中查找label等于value非常类似，只不过需要记录path
+- 每次调用next()时生成一条查找到value的路径
+- 如何添加路径需要认真思考
 
 
 ## [HW 06: Scheme](https://inst.eecs.berkeley.edu/~cs61a/sp21/hw/hw06/)	未完成
