@@ -10,9 +10,9 @@
 
 # 完成度：
 
-耗时：26h
+耗时：29h
 
-Lab（6/13）
+Lab（7/13）
 
 HW（5/10）
 
@@ -41,7 +41,11 @@ Project（2/3）
 ## [Lab 06: Nonlocal, Mutability, Iterators and Generators](https://inst.eecs.berkeley.edu/~cs61a/sp21/lab/lab06/)	
 
 
-## [Lab 07: Object-Oriented Programming, Linked Lists, Mutable Trees](https://inst.eecs.berkeley.edu/~cs61a/sp21/lab/lab07/)	未完成
+## [Lab 07: Object-Oriented Programming, Linked Lists, Mutable Trees](https://inst.eecs.berkeley.edu/~cs61a/sp21/lab/lab07/)	
+
+### Q5: Convert Link 虽然做出来了但是对其中的逻辑的理解还是不够深刻，需要回顾
+
+### Q6: Cumulative Mul 虽然做出来了但是对其中的逻辑的理解还是不够深刻，需要回顾
 
 
 ## [ Lab 08: Midterm Review](https://inst.eecs.berkeley.edu/~cs61a/sp21/lab/lab08/)	未完成
